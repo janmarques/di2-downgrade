@@ -45,15 +45,15 @@ Reminder that this is not officially supported and you may brick your devices.
 
 ## Downgrading your external battery ( SM-BMR2 )
 
-If you have already accidentally upgraded your external battery, you need to downgrade it back to version 2.2.3.
+If you have already accidentally upgraded your external battery, you need to downgrade it back to version `2.2.0`.
 
 This is however not officially supported, so we need to mess with version numbers to get this to work.
 
 First, check in the E-Tube Project what the current version of your battery is.
 
-Let's assume your battery firmware version is currently on 3.0.11.
+Let's assume your battery firmware version is currently on `3.0.11`.
 
-We need to trick the E-Tube Project into thinking that the 2.2.3 firmware file is actually a newer version than 3.4.5, so that E-Tube Project will suggest that you upgrade to this "new" version.
+We need to trick the E-Tube Project into thinking that the `2.2.0` firmware file is actually a newer version than `3.0.11`, so that E-Tube Project will suggest that you upgrade to this "new" version.
 
 The firmware version files that E-Tube Project uses are located at `C:\ProgramData\E-tube Project\FW`.
 
